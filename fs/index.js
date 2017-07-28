@@ -1,15 +1,20 @@
 /**
  * Created by wangxiaohui on 17/7/26.
  */
+/**
+ * 文档
+ * http://www.jianshu.com/p/5683c8a93511
+ */
 
 //公共引用
 const fs = require('../fs'),
     path = require('../path');
-// http://www.jianshu.com/p/5683c8a93511
+
 
 /**
  * 读文件
  */
+
 fs.readFile(__dirname + '/test.txt', {flag: 'r+', encoding: 'utf8'}, function (err, data) {
     if(err) return;
     console.log(`${data}读取成功`);
