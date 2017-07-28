@@ -1,8 +1,8 @@
 /**
  * Created by wangxiaohui on 17/7/26.
  */
-const _ = require('lodash');
-const fp = require('lodash/fp');
+const _ = require('../lodash');
+const fp = require('../lodash/fp');
 // http://www.jianshu.com/p/7436e40ac5d1
 
 

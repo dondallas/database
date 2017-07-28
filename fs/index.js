@@ -3,8 +3,8 @@
  */
 
 //公共引用
-const fs = require('fs'),
-    path = require('path');
+const fs = require('../fs'),
+    path = require('../path');
 // http://www.jianshu.com/p/5683c8a93511
 
 /**
