@@ -26,10 +26,9 @@ async.eachLimit(items, 1, function (item, cb) {
  */
 async.waterfall([
         function(done){
-            done(err, 结果) //将结果写入result
+            done(err, 结果)
         },
         function(result, done){
-            //result即上一步写入的结果
             done(err, 返回结果)
         },
     ],function(error, result){});
@@ -41,8 +40,7 @@ async.auto({
         func1: function(done){
             done(err, 要写入func1的结果)
         },
-        func2: ["func1", function(done, results){ //依赖func1
-            //results = {func1: xxx};
+        func2: ["func1", function(done, results){
             done(err, 返回结果)
         }],
         func3: ["func2", function(done, results){
