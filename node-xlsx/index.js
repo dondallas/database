@@ -61,8 +61,7 @@ async.waterfall([
     if(err){
         return
     }
-    let buffer = JSON.stringify(result);
-    fs.writeFileSync('test2.json',buffer);
+    fs.writeFileSync('test2.json',JSON.stringify(result));
 });
 
 
