@@ -5,13 +5,14 @@
     "lodash": "^4.17.4",
     "log": "^1.4.0",
     "moment": "^2.18.1",
+    "mysql": "^2.14.1",
     "node-xlsx": "^0.10.0",
     "path": "^0.12.7",
+    "sequelize": "^4.4.2",
+    "transliteration": "^1.6.2",
     "util": "^0.10.3"
   },
   "devDependencies": {
     "babel-plugin-lodash": "^3.2.11"
   }
 }
-
-
