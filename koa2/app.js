@@ -1,9 +1,9 @@
 /**
  * Created by wangxiaohui on 17/8/3.
  */
-const Koa = require('koa') // koa v2
+const Koa = require('koa'); // koa v2
 // const loggerAsync  = require('./middleware/logger-async')
-const app = new Koa()
+const app = new Koa();
 
 // app.use(loggerAsync())
 
